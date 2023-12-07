@@ -1,0 +1,15 @@
+# .gitpod.yml
+
+# Defines the base image for the workspace
+image:
+  file: ".gitpod.Dockerfile"
+
+# List of tasks to run when the workspace is started
+tasks:
+  - init: echo "Hello from Gitpod!"
+
+# VS Code extensions to install
+vscode:
+  extensions:
+    - eamodio.gitlens
+    - ms-python.python
